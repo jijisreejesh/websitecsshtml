@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#header1 img{
+width: 70px;
+padding-top: 5px;
+padding-left: 10px;
+}
+#header{
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+width: 100%;
+height: 80px;
+}
+#header1{
+float: left;
+}
+.navbar{
+text-decoration: none;
+margin-right: 50px;
+margin-top: 30px;
+font-size: large;
+color: brown;
+float: right;
+}
+.navbar:hover{
+text-decoration: underline;
+text-decoration-color:blue ;
+font-size: x-large;
+background-color: antiquewhite;
+}
+#container{
+    width: 100%;
+    height: 400px;
+    background-image: url('https://cdn.pixabay.com/photo/2018/04/03/09/38/roll-3286363_640.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: gray;
+    background-blend-mode: color-burn;
+}
+#container h1{
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 140px;
+}
+#article{
+     background-color: rgb(71, 67, 67);
+    background-blend-mode: multiply; 
+    background-image:url('https://cdn.pixabay.com/photo/2020/03/07/11/20/cupcake-4909453_640.jpg'); 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(224, 230, 233);
+    padding-right: 20px;
+    padding-left: 20px;
+    
+}
+#article p{
+    padding-top: 20px;
+    text-align: center;
+    text-align: justify ;
+     line-height: 1.5; 
+    font-size: large;
+}
+#article h1{
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background: linear-gradient(to right, #f32170, 
+                    #ff6b08, #cf23cf, #eedd44); 
+                    -webkit-text-fill-color: transparent; 
+                    -webkit-background-clip: text;                
+}
+#section{
+    margin-top: 40px;
+    font-size: x-large;
+    padding: 20px;
+    text-align: left;
+    background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+ width: 1300px;
+   margin-left: auto;
+   margin-right: auto;
+  
+}
+#article #space{
+    padding-top: 30px;
+}
+
+#footer{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(17, 16, 16);
+    color: white;
+    text-align: center;
+}
+#footer img{
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+    border-radius: 50px;
+}
+#footer table{
+    margin-left: auto;
+    margin-right: auto;
+   
+    border-spacing: 30px;
+    text-align: left;
+}
+#footer th,td{
+    width: 150px;
+}
+#footericon{
+    background-color: gainsboro;
+    width: 200px;
+    height: 50px;
+   margin-left: auto;
+   margin-right: auto;
+}
+#footer #footericon img{
+    margin-top: auto;
+    margin-bottom: auto;
+    width:30px;
+     height:30px;
+     margin-right: 10px;
+     padding-top: 10px;
+    
+}
+#footer2{
+    width: 100%;
+    height: 50px;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    background-color: rgb(41, 39, 39);
+}
+#footer3{
+    height: 80px;
+}
